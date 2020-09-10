@@ -10,8 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cea39f9-3cfe-43ab-9380-98660042338f" name="Default Changelist" comment="project init.">
-      <change afterPath="$PROJECT_DIR$/src/pages/index/child.jsx" afterDir="false" />
+    <list default="true" id="6cea39f9-3cfe-43ab-9380-98660042338f" name="Default Changelist" comment="Taro init.">
+      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/child.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/child.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +51,13 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSPX" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="D:\StudyWork\React\taroApp\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="D:\program files\JetBrains\IntelliJ IDEA 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -81,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599705788736</updated>
-      <workItem from="1599705791936" duration="3755000" />
+      <workItem from="1599705791936" duration="11565000" />
     </task>
     <task id="LOCAL-00001" summary="project init.">
       <created>1599709551264</created>
@@ -90,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599709551265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Taro init.">
+      <created>1599709837349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599709837349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,9 +125,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project init." />
-    <option name="LAST_COMMIT_MESSAGE" value="project init." />
+    <MESSAGE value="taro init." />
+    <MESSAGE value="Taro init." />
+    <option name="LAST_COMMIT_MESSAGE" value="Taro init." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="609" y="370" key="#ESLint" timestamp="1599721046612">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="609" y="370" key="#ESLint/0.0.1504.963@0.0.1504.963" timestamp="1599721046612" />
     <state x="379" y="160" key="#Inspections" timestamp="1599708565636">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -141,6 +162,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1599706530302" />
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2" timestamp="1599709845996">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1599709845996" />
     <state x="451" y="212" width="603" height="538" key="find.popup" timestamp="1599707656847">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

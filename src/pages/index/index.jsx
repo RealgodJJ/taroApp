@@ -1,6 +1,7 @@
-import React, {Component} from 'react'
-import {View, Text} from '@tarojs/components'
-import './index.less'
+import React, {Component} from 'react';
+import {View, Text} from '@tarojs/components';
+import './index.less';
+import Child from "./child";
 
 export default class Index extends Component {
   constructor(props) {
@@ -8,8 +9,9 @@ export default class Index extends Component {
     // this.setState(name:"Hello world!!！");
     this.state = {
       name: 'Hello world!!!!!',
-      text: '张三'
-    }
+      teacher: '张三',
+      obj: {key: [{student: "", age: 0}]}
+    };
   }
 
   componentWillMount() {
@@ -18,11 +20,13 @@ export default class Index extends Component {
 
   componentDidMount() {
     console.log("===componentDidMount===");
-    this.setState({name: 'Hello China!!!!!'});
-    this.setState({text: '李四'}, () => {
-      console.log("state管理异步更新：" + this.state.name + "\n" + this.state.text);
-    });
-    console.log(this.state.name + "\n" + this.state.text);
+    this.setState({name: 'Hello China!!!!!', teacher: '李四', obj: {key: [{student: "张三", age: 25}]}},
+      () => {
+        console.log("state管理异步更新：" + this.state.name + "\n" + this.state.teacher + "\n" +
+          this.state.obj.key[0].student + "\n" + this.state.obj.key[0].age);
+      });
+    console.log("state管理还未更新：" + this.state.name + "\n" + this.state.teacher + "\n" + this.state.obj.key[0].student
+      + "\n" + this.state.obj.key[0].age);
   }
 
   // eslint-disable-next-line react/sort-comp
@@ -30,7 +34,7 @@ export default class Index extends Component {
     //检查此次setState是否要进行render调用
     //一般用来多次的setState调用时，提升render性能（减少频繁刷新）
     console.log("===shouldComponentUpdate===");
-    return nextState.text === '李四';
+    return nextState.teacher === '李四';
   }
 
   // eslint-disable-next-line no-unused-vars
@@ -50,14 +54,21 @@ export default class Index extends Component {
     //在React中不存在的函数，Taro特有函数，页面隐藏时触发
   }
 
+  test() {
+    console.log("test父组件传递参数给子组件......");
+  }
+
   render() {
+    let {teacher, obj} = this.state;
+    // let obj = {key: [{name: '张三', age: 18}]};
     return (
       <View className='index'>
         <Text>{this.state.name}</Text>
         <View>
-          <Text>{this.state.text}</Text>
+          <Text>{this.state.teacher}</Text>
+          <Child teacher={teacher} obj={obj} ontest={this.test}/>
         </View>
       </View>
-    )
+    );
   }
 }
