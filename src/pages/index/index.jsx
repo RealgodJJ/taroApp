@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
-import {View, Text} from '@tarojs/components';
+import {View, Text, Button, Image} from '@tarojs/components';
+import {getCurrentInstance} from '@tarojs/taro';
 import './index.less';
-import Child from "./child";
+import Child from './child';
+import Img from '../../img/main_kv@2x.png';
+import {f1, f2} from '../../utils';
 
 export default class Index extends Component {
   constructor(props) {
@@ -16,6 +19,8 @@ export default class Index extends Component {
 
   componentWillMount() {
     console.log("===componentWillMount===");
+    let {id, type} = getCurrentInstance().router.params;
+    alert(id + "-" + type);
   }
 
   componentDidMount() {
@@ -54,8 +59,16 @@ export default class Index extends Component {
     //在React中不存在的函数，Taro特有函数，页面隐藏时触发
   }
 
-  test() {
+  testHandle() {
     console.log("test父组件传递参数给子组件......");
+  }
+
+  clickF1Handle() {
+    f1();
+  }
+
+  clickF2Handle() {
+    f2();
   }
 
   render() {
@@ -63,10 +76,13 @@ export default class Index extends Component {
     // let obj = {key: [{name: '张三', age: 18}]};
     return (
       <View className='index'>
+        <Image className='imgStyle' src={Img}/>I
         <Text>{this.state.name}</Text>
         <View>
           <Text>{this.state.teacher}</Text>
-          <Child teacher={teacher} obj={obj} ontest={this.test}/>
+          <Child teacher={teacher} obj={obj} ontest={this.testHandle}/>
+          <Button onClick={this.clickF1Handle.bind(this)}>调用功能1</Button>
+          <Button onClick={this.clickF2Handle.bind(this)}>调用功能2</Button>
         </View>
       </View>
     );

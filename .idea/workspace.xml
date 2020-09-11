@@ -10,13 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cea39f9-3cfe-43ab-9380-98660042338f" name="Default Changelist" comment="Taro init.">
-      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="6cea39f9-3cfe-43ab-9380-98660042338f" name="Default Changelist" comment="Taro state and props.">
+      <change afterPath="$PROJECT_DIR$/src/img/main_kv@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/test/test.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/test/test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/test/test.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/child.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/child.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +53,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSPX" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="$PROJECT_DIR$/../../../Program Files/nodejs/node" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="D:\StudyWork\React\taroApp\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="D:\program files\JetBrains\IntelliJ IDEA 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyWork\React\taroApp\src\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev:h5">
+    <configuration name="build:h5" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:h5" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev:h5" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -76,6 +95,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev:h5" />
+        <item itemvalue="npm.build:h5" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +109,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599705788736</updated>
-      <workItem from="1599705791936" duration="11565000" />
+      <workItem from="1599705791936" duration="11605000" />
+      <workItem from="1599789173607" duration="1438000" />
+      <workItem from="1599790949386" duration="847000" />
+      <workItem from="1599791923308" duration="4013000" />
+      <workItem from="1599803922191" duration="2699000" />
+      <workItem from="1599806768073" duration="1423000" />
+      <workItem from="1599808424848" duration="249000" />
+      <workItem from="1599808793152" duration="205000" />
+      <workItem from="1599809362560" duration="2557000" />
+      <workItem from="1599812429487" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="project init.">
       <created>1599709551264</created>
@@ -105,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599709837349</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Taro state and props.">
+      <created>1599721433932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599721433932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,13 +157,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project init." />
     <MESSAGE value="taro init." />
     <MESSAGE value="Taro init." />
-    <option name="LAST_COMMIT_MESSAGE" value="Taro init." />
+    <MESSAGE value="Taro state and props." />
+    <option name="LAST_COMMIT_MESSAGE" value="Taro state and props." />
   </component>
   <component name="WindowStateProjectService">
     <state x="609" y="370" key="#ESLint" timestamp="1599721046612">
@@ -138,38 +176,94 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="379" y="160" key="#Inspections/0.0.1504.963@0.0.1504.963" timestamp="1599708565636" />
-    <state x="436" y="368" key="#Stylelint" timestamp="1599706019798">
+    <state x="436" y="368" key="#Stylelint" timestamp="1599811925085">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="436" y="368" key="#Stylelint/0.0.1504.963@0.0.1504.963" timestamp="1599706019798" />
+    <state x="436" y="368" key="#Stylelint/0.0.1504.963@0.0.1504.963" timestamp="1599811925085" />
+    <state x="430" y="163" key="#build:h5" timestamp="1599804212970">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="430" y="163" key="#build:h5/0.0.1504.963@0.0.1504.963" timestamp="1599804212970" />
     <state x="621" y="379" key="Github.ShareDialog" timestamp="1599709586143">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="621" y="379" key="Github.ShareDialog/0.0.1504.963@0.0.1504.963" timestamp="1599709586143" />
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1599706530302">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1599813110904">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1599706530302" />
-    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1599706530302">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1599813110904" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1599813110904">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1599706530302" />
-    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1599706530302">
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1599813110904" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1599813110904">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1599706530302" />
-    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1599706530302">
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1599813110904" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1599813110904">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1599706530302" />
-    <state x="345" y="215" key="Vcs.Push.Dialog.v2" timestamp="1599709845996">
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1599813110904" />
+    <state width="1461" height="316" key="GridCell.Tab.1.bottom" timestamp="1599806000210">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="345" y="215" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1599709845996" />
-    <state x="451" y="212" width="603" height="538" key="find.popup" timestamp="1599707656847">
+    <state width="1461" height="316" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.1.center" timestamp="1599806000210">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="451" y="212" width="603" height="538" key="find.popup/0.0.1504.963@0.0.1504.963" timestamp="1599707656847" />
+    <state width="1461" height="316" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.1.left" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.1.right" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.2.bottom" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.2.bottom/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.2.center" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.2.center/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.2.left" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.2.left/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.2.right" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.2.right/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.3.bottom" timestamp="1599806000211">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.3.bottom/0.0.1504.963@0.0.1504.963" timestamp="1599806000211" />
+    <state width="1461" height="316" key="GridCell.Tab.3.center" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.3.center/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.3.left" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.3.left/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state width="1461" height="316" key="GridCell.Tab.3.right" timestamp="1599806000210">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="316" key="GridCell.Tab.3.right/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2" timestamp="1599721442035">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1599721442035" />
+    <state x="451" y="212" width="603" height="538" key="find.popup" timestamp="1599793319520">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="451" y="212" width="603" height="538" key="find.popup/0.0.1504.963@0.0.1504.963" timestamp="1599793319520" />
+    <state x="140" y="164" key="new project wizard" timestamp="1599804765105">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="140" y="164" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1599804765105" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1599707883984">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
