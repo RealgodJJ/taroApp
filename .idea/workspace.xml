@@ -10,15 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cea39f9-3cfe-43ab-9380-98660042338f" name="Default Changelist" comment="Taro state and props.">
-      <change afterPath="$PROJECT_DIR$/src/img/main_kv@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/test/test.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/test/test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/test/test.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+    <list default="true" id="6cea39f9-3cfe-43ab-9380-98660042338f" name="Default Changelist" comment="Taro router and resource reference.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.less" afterDir="false" />
     </list>
@@ -118,7 +111,8 @@
       <workItem from="1599808424848" duration="249000" />
       <workItem from="1599808793152" duration="205000" />
       <workItem from="1599809362560" duration="2557000" />
-      <workItem from="1599812429487" duration="1097000" />
+      <workItem from="1599812429487" duration="2094000" />
+      <workItem from="1599970720141" duration="1726000" />
     </task>
     <task id="LOCAL-00001" summary="project init.">
       <created>1599709551264</created>
@@ -141,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599721433932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Taro router and resource reference.">
+      <created>1599813576308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599813576308</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +166,8 @@
     <MESSAGE value="taro init." />
     <MESSAGE value="Taro init." />
     <MESSAGE value="Taro state and props." />
-    <option name="LAST_COMMIT_MESSAGE" value="Taro state and props." />
+    <MESSAGE value="Taro router and resource reference." />
+    <option name="LAST_COMMIT_MESSAGE" value="Taro router and resource reference." />
   </component>
   <component name="WindowStateProjectService">
     <state x="609" y="370" key="#ESLint" timestamp="1599721046612">
@@ -252,10 +254,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1461" height="316" key="GridCell.Tab.3.right/0.0.1504.963@0.0.1504.963" timestamp="1599806000210" />
-    <state x="345" y="215" key="Vcs.Push.Dialog.v2" timestamp="1599721442035">
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2" timestamp="1599813583095">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="345" y="215" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1599721442035" />
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1599813583095" />
     <state x="451" y="212" width="603" height="538" key="find.popup" timestamp="1599793319520">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

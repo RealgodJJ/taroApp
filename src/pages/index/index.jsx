@@ -75,8 +75,8 @@ export default class Index extends Component {
     let {teacher, obj} = this.state;
     // let obj = {key: [{name: '张三', age: 18}]};
     return (
-      <View className='index'>
-        <Image className='imgStyle' src={Img}/>I
+      <View className='imgStyle'>
+        <Image src={Img}/>
         <Text>{this.state.name}</Text>
         <View>
           <Text>{this.state.teacher}</Text>
